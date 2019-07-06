@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>Wopster</translationContributors>
+
+    <texts>
+ 
+        <!--Settings-->
+        <text name="usedVehicles_setting_test1" text="Test Settings"/>
+    </texts>
+</l10n>

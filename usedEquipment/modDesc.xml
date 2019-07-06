@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="42">
+    <author>PauleyEC</author>
+    <version>1.0.0.0</version>
+
+    <title>
+        <en>Used Equipment</en>
+        <de>Used Equipment</de>
+        <fr>Used Equipment</fr>
+        <it>Used Equipment</it>
+        <es>Used Equipment</es>
+    </title>
+
+    <description>
+        <en>
+            <![CDATA[Used Equipment.]]>
+        </en>
+        <de>
+            <![CDATA[Used Equipment.]]>
+        </de>
+        <fr>
+            <![CDATA[Used Equipment.]]>
+        </fr>
+        <it>
+            <![CDATA[Used Equipment.]]>
+        </it>
+        <es>
+            <![CDATA[Used Equipment.]]>
+        </es>
+    </description>
+
+    <l10n filenamePrefix="translations/translation"/>
+
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="src/loader.lua"/>
+    </extraSourceFiles>
+	
+	
+    <actions>
+        <action name="UV_SHOW_UI" axisType="HALF"/>
+        <!-- <action name="UV_SETPOINT" axisType="HALF"/>
+        <action name="UV_SET_AUTO_WIDTH" axisType="HALF"/>
+        <action name="UV_ENABLE_STEERING" axisType="HALF"/>
+        <action name="UV_AXIS_WIDTH" axisType="FULL"/>
+        <action name="UV_AXIS_SHIFT" axisType="FULL"/>
+        <action name="UV_AXIS_REALIGN" axisType="HALF"/> -->
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="UV_SHOW_UI">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_s"/>
+        </actionBinding>
+        <!-- <actionBinding action="GS_SETPOINT">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_e"/>
+        </actionBinding>
+        <actionBinding action="GS_SET_AUTO_WIDTH">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_r"/>
+        </actionBinding>
+        <actionBinding action="GS_ENABLE_STEERING">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_x"/>
+        </actionBinding>
+        <actionBinding action="GS_AXIS_WIDTH">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_equals" axisComponent="+"/>
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_minus" axisComponent="-"/>
+        </actionBinding>
+        <actionBinding action="GS_AXIS_SHIFT">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_pageup" axisComponent="+"/>
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_pagedown" axisComponent="-"/>
+        </actionBinding>
+        <actionBinding action="GS_AXIS_REALIGN">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_home"/>
+        </actionBinding> -->
+    </inputBinding>
+</modDesc>
